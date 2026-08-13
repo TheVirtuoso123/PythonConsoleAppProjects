@@ -1,0 +1,8 @@
+# Ignore Python virtual environments
+**/venv/
+.venv/
+ENV/
+
+# Ignore OS metadata files
+.DS_Store
+Thumbs.db
