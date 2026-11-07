@@ -31,7 +31,22 @@ A versatile QR code generator with dual-output capabilities.
 - `Pillow` - Image processing
 - `pathlib` - Cross-platform file path handling
 
-### Usage
+### Setup and Usage
+
+1. Create and enter virtual environment (powershell)
+
+```bash
+python3 -m venv .venv
+.venv\Scripts\Activate.ps1
+```
+
+2. Install required dependency or library
+
+```bash
+python -m pip install "qrcode[pil]" qrcode-terminal
+```
+
+3. Run the program
 
 ```bash
 python qrmaker.py
